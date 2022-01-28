@@ -1,0 +1,27 @@
+.vegtablesimagestables_sliders {
+  display: none !important;
+
+  @media screen and (max-width: 550px) {
+    display: block !important;
+  }
+}
+
+.slick-initialized .slick-slide {
+  display: block;
+
+  .slick-initialized .slick-slide {
+    padding: 0px;
+  }
+}
+
+.slick-slide slick-active slick-current {
+  display: block;
+  width: 450px;
+  padding-top: 17px;
+  padding-right: 0px;
+  padding-left: 6px;
+}
+
+.slick-dots li button {
+  display: none !important;
+}

@@ -1,0 +1,69 @@
+.carousel {
+  display: none;
+
+  @media screen and (max-width: 999px) {
+    display: block;
+  }
+}
+
+.carousel {
+  position: relative;
+  direction: ltr;
+  width: 100%;
+  height: auto;
+  left: 0px;
+  border: 1px solid #f7f7f7;
+  box-sizing: border-box;
+  padding: 20px 14px 26px 15px;
+  background-color: #fff;
+
+  .testimonal {
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .Marketplace {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .testi_content {
+    font-size: 12px;
+  }
+
+  .hr_content {
+    margin-left: 100px;
+    margin-top: -57px;
+    font-size: 14px;
+  }
+
+  .hr_nameds {
+    color: red;
+    font-weight: 700;
+  }
+}
+
+.products_dabke_image {
+  display: flex;
+  justify-content: center;
+  border: 2px solid #ededed;
+
+  .debke_image_content {
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .lemo_image_debke {
+    margin-top: 27px;
+    margin-bottom: 13px;
+    margin-left: 61px;
+  }
+}
+
+.debke_content {
+  display: none;
+
+  @media screen and (max-width: 999px) {
+    display: block;
+  }
+}

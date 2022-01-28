@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap");
+
+body {
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav {
+  border: 1px solid #1abf5d;
+  background-color: #1abf5d;
+  color: #fff;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  ul {
+    li {
+      cursor: pointer;
+    }
+  }
+
+  .account_track {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    margin-top: 8px;
+    font-size: 13px;
+    cursor: pointer;
+
+    @media screen and (max-width: 991px) {
+      margin-left: -10px !important;
+    }
+
+    @media screen and (max-width: 999px) {
+      display: flex;
+      justify-content: flex-start;
+      list-style: none;
+      margin-top: 8px;
+      font-size: 13px;
+      margin-left: 12px;
+    }
+
+    @media screen and (max-width: 767px) {
+      margin-left: -22px;
+    }
+
+    @media screen and (max-width: 380px) {
+      margin-top: 8px;
+      font-size: 10px;
+    }
+
+    .order_tracking {
+      margin-left: 5px;
+      @media screen and (max-width: 32px) {
+        margin-left: 0px;
+      }
+    }
+  }
+
+  .delivery {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    font-size: 13px;
+    margin-top: -36px;
+    cursor: pointer;
+
+    @media screen and (max-width: 767px) {
+      margin-right: -2px;
+    }
+
+    @media screen and (max-width: 999px) {
+      margin-right: 28px;
+    }
+
+    @media screen and (max-width: 380px) {
+      font-size: 10px;
+      margin-top: -32px;
+    }
+
+    @media screen and (max-width: 320px) {
+      margin-top: -31px;
+    }
+
+    .secure_the_courier {
+      @media screen and (max-width: 999px) {
+        display: none;
+      }
+    }
+
+    .English {
+      margin-left: 11px;
+      cursor: pointer;
+    }
+
+    .USD {
+      margin-left: 4px;
+      cursor: pointer;
+    }
+  }
+}

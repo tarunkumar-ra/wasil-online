@@ -1,0 +1,25 @@
+.slick-initialized .slick-slide {
+  display: block;
+  width: 450px;
+  padding-top: 17px;
+  padding-right: 0px;
+  padding-left: 6px;
+}
+
+.slick-slide slick-active slick-current {
+  display: block;
+  width: 450px;
+
+  .slick-initialized .slick-slide {
+    padding: 0px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .veg_tables_sliders {
+    display: none;
+  }
+}
+
+.slick-dots li button {
+  display: none !important;
+}

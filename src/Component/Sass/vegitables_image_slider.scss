@@ -1,0 +1,32 @@
+.veg_tables_imagessliders {
+  display: none !important;
+
+  @media screen and (max-width: 1000px) {
+    display: block !important;
+  }
+
+  @media screen and (max-width: 550px) {
+    display: none !important;
+  }
+}
+
+.slick-initialized .slick-slide {
+  display: block;
+  width: 450px;
+
+  .slick-initialized .slick-slide {
+    padding: 0px;
+  }
+}
+
+.slick-slide slick-active slick-current {
+  display: block;
+  width: 450px;
+  padding-top: 17px;
+  padding-right: 0px;
+  padding-left: 1px;
+}
+
+.slick-dots li button {
+  display: none !important;
+}

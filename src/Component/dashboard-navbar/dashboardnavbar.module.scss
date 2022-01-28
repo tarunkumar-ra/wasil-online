@@ -1,0 +1,40 @@
+.nav_bg {
+  background-color: #fff;
+  padding-top: 30px;
+  padding-bottom: 13px;
+
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+
+    li {
+      font-size: 14px;
+      padding: 10px 10px 10px 10px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #deffeb;
+        color: #0baf4d;
+        border-radius: 15px;
+        cursor: pointer;
+        padding: 10px 10px 10px 10px;
+      }
+    }
+
+    li.home {
+      margin-left: 270px;
+      font-size: 14px;
+    }
+    li.category {
+      border: 1px solid #0baf4d;
+      background-color: #0baf4d;
+      border-radius: 6px;
+      color: #fff;
+    }
+  }
+}
