@@ -23,3 +23,11 @@
 .slick-dots li button {
   display: none !important;
 }
+
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled),
+button:not(:disabled) {
+  cursor: pointer;
+  display: none !important;
+}

@@ -48,7 +48,7 @@ const Searchbar = () => {
                     <i class="fas fa-home"></i>&nbsp;&nbsp;Home
                   </li>
                   <li style={{ paddingTop: "29px" }}>
-                    <i class="fas fa-briefcase"></i>&nbsp;&nbsp;Shop
+                    <i class="fas fa-briefcase"></i>&nbsp;&nbsp; Shop
                   </li>
                   <li style={{ paddingTop: "29px" }}>
                     <i class="fas fa-exclamation-circle"></i>&nbsp;&nbsp;About

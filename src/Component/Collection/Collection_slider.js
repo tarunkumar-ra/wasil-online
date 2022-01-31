@@ -34,6 +34,20 @@ function ControlledCarousel() {
           alt="banner-1.jpg"
         />
       </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={process.env.PUBLIC_URL + "/items/61f7ad49493ddbanner-2.png"}
+          alt="61f7ad49493ddbanner-2.jpg"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={process.env.PUBLIC_URL + "/items/61f7bcad7f094banner-3.png"}
+          alt="61f7bcad7f094banner-3.png"
+        />
+      </Carousel.Item>
     </Carousel>
   );
 }
