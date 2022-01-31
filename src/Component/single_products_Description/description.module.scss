@@ -1,0 +1,154 @@
+.descrip_bg{
+   
+    position: relative;
+    background-color: #f8f8f8;
+
+    .lastdesciption_bottom{
+
+        border:1px solid #f8f8f8;
+        margin-top:70px;
+        
+    }
+
+    .Desciption{
+
+        border:1px solid #e1e0e0;
+        width: 100%;
+        height: auto;
+        background-color: white;
+
+        
+    .Desciption_contents{
+
+          display: block;
+        .p1{
+            padding: 18px 25px 13px 30px;
+            width: 200px;
+            letter-spacing: 2px;
+            font-size: 13px; 
+        }
+
+
+      }
+    .Desciption_contents2{
+
+        .p1{
+            padding: 18px 25px 13px 30px;
+            width: 200px;
+            letter-spacing: 2px;
+            font-size: 13px;
+        }
+
+        display:none;
+
+    }
+
+
+    .Additional_information_contents{
+
+        .addtional_contents{
+
+            padding: 22px 20px 14px 21px;
+            font-size:15px;
+        }
+
+        padding: 10px 10px 10px 10px;
+        display: block;
+    }
+
+    .Additional_information_contents2{
+
+        .addtional_contents{
+
+            padding: 22px 20px 14px 21px;
+            font-size:15px;
+
+        }
+        padding: 10px 10px 10px 10px;
+        display: none;
+    }
+
+    .Reviews_contents{
+
+        .review_paragrah{
+
+            font-size: 15px;
+            padding: 22px 20px 14px 21px;
+
+        }
+
+        padding: 10px 10px 10px 10px;
+        display: block;
+    }
+
+    .Reviews_contents2{
+
+        .review_paragrah{
+
+            font-size: 15px;
+            padding: 22px 20px 14px 21px;
+
+        }
+
+        padding: 10px 10px 10px 10px;
+        display: none;
+
+
+    }
+    .content_related{
+    
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid #e1e0e0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+
+    @media screen and (max-width:599px){
+
+        display: grid;
+        
+    }
+
+
+    .descri{
+        font-size:16px;
+        font-weight: 600;
+        padding-left:30px;
+        cursor: pointer;
+
+    }
+
+    .add_info{
+        font-size:16px;
+        font-weight: 600;
+        padding-left:30px;
+        cursor: pointer;
+
+        @media screen and (max-width:599px){
+
+            padding-top: 10px;
+
+        }
+    }
+
+    .reviews{
+        font-size:16px;
+        font-weight: 600;
+        padding-left:30px;
+        cursor: pointer;
+
+        @media screen and (max-width:599px){
+
+            padding-top: 10px;
+
+        }
+
+    }
+
+
+    }
+
+    }
+    
+}

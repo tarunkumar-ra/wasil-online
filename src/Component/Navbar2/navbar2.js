@@ -2,6 +2,8 @@ import React, { Fragment } from "react";
 
 import "../Sass/navigation.scss";
 
+import  { Link }  from "react-router-dom";
+
 const Navigation = () => {
   return (
     <>
@@ -13,10 +15,10 @@ const Navigation = () => {
               <i class="fas fa-chevron-down"></i>
             </span>
             <li>
-              <i class="fas fa-home"></i>&nbsp;&nbsp;Home
+              <Link to="/"><i class="fas fa-home"></i>&nbsp;&nbsp;Home</Link>
             </li>
             <li>
-              <i class="fas fa-briefcase"></i>&nbsp;&nbsp;Shop
+              <Link to="/Shop"><i class="fas fa-briefcase"></i>&nbsp;&nbsp;Shop</Link>
             </li>
             <li>
               <i class="fas fa-briefcase"></i>&nbsp;&nbsp;Offers

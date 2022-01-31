@@ -4,6 +4,10 @@ import Dashboardnavbar from "../dashboard-navbar/dashboardnavbar";
 
 import style from "../singleProducts/single.module.scss";
 
+import  Desciption   from "../single_products_Description/description";
+
+import  RelatedProducts  from  "../Related-Products/related-Products";
+
 const Singleproducts = () => {
   return (
     <>
@@ -16,6 +20,8 @@ const Singleproducts = () => {
                 <div className={style.pro_img}>
                   <div className={style.product_pd}>
                     <div className={style.products_multiimages}>
+                    
+                    <div  >
                       <img
                         className={style.images}
                         src={
@@ -54,6 +60,8 @@ const Singleproducts = () => {
                         alt="items/product-side-img.png"
                       />
                     </div>
+                  </div>
+
                   </div>
 
                   <div className={style.single_page_image}>
@@ -63,7 +71,36 @@ const Singleproducts = () => {
                       className={style.images2}
                     />
                   </div>
+                  
                 </div>
+                <div  className={ style.single_pd_pd_images } >
+                <div  className={ style.single_pd_pd_images2 }  >
+                  <div   className={ style.sig_images } ><img
+                  src={
+                    process.env.PUBLIC_URL + "items/product-side-img.png"
+                  }
+                  alt="items/product-side-img.png"  className={ style.images }
+                /></div>
+                  <div  className={ style.sig_images }><img
+                  src={
+                    process.env.PUBLIC_URL + "items/product-side-img.png"  
+                  }    className={ style.images }
+                  alt="items/product-side-img.png"
+                /></div>
+                  <div  className={ style.sig_images } ><img
+                  src={
+                    process.env.PUBLIC_URL + "items/product-side-img.png"
+                  }
+                  alt="items/product-side-img.png"  className={ style.images }
+                /></div>
+                  <div  className={ style.sig_images } ><img
+                  src={
+                    process.env.PUBLIC_URL + "items/product-side-img.png"
+                  }  
+                  alt="items/product-side-img.png"  className={ style.images }
+                /></div>
+                  </div>
+              </div>
               </div>
               <div className="col-lg-6">
                 <div className={style.single_products_bd}>
@@ -166,8 +203,11 @@ const Singleproducts = () => {
               </div>
             </div>
           </div>
+          <div  className={ style.prod_bottom } ></div>
         </div>
       </div>
+      <Desciption/>
+      <RelatedProducts/>
     </>
   );
 };
