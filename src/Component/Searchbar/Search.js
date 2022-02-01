@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+// import { Link }  from "react-router-dom";
+
 import "../Sass/searchbar.scss";
 
 const Searchbar = () => {
@@ -109,11 +111,11 @@ const Searchbar = () => {
               className="user_icon"
             />
             <h5 className="cart_data">$0.00</h5>
-            <img
+            <a  href="/Cart"><img
               src={process.env.PUBLIC_URL + "items/cart.png"}
               alt="cart.png"
               className="user_cart"
-            />
+            /></a>
           </div>
         </div>
       </div>

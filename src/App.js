@@ -9,6 +9,7 @@ import NewsProducts from "./Component/NewsProducts/NewsProducts";
 import Home from "./Component/home/Home";
 import Singleproducts from "./Component/singleProducts/Singleproducts";
 import  Shop  from "./Component/Shop/Shop";
+import  Cart   from "./Component/Cart/cart";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
           <Route exact path="/news-products" element={<NewsProducts />} />
           <Route exact path="/single-products" element={<Singleproducts />} />
           <Route exact path="/Shop"  element={ <Shop/> } />
+          <Route exact path="/Cart"  element={ <Cart/> } />
         </Routes>
       </Router>
       <Footer />

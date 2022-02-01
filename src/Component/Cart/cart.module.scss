@@ -1,0 +1,225 @@
+.cart_bg{
+
+    background-color: #f5f5f5;
+
+    .cart{
+
+        display: flex;
+        margin-top:50px;
+
+        .cart_total{
+
+            border: 1px solid #e1e0e0;
+    width: 26%;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 30px;
+    background-color:white;
+
+    .Proceed{
+
+        display: flex;
+        justify-content: center;
+        margin-top:22px;
+     
+        .checkout{
+                      
+            border: 1px solid #0baf4d;
+            text-align: center;
+            width: 230px;
+            font-size: 12px;
+            border-radius: 15px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: #0baf4d;
+            color: #fff;
+            margin-bottom: 15px;
+        }
+
+    }
+
+    .totals{
+
+        display: flex;
+        justify-content: space-around;
+        margin-top:9px;
+
+        .totals2{
+            font-weight: 700;
+        }
+
+        .price_totals{
+
+            color:#0baf4d;
+            font-weight: 700;
+        }
+
+    }
+
+
+    .Shipping{
+
+        display: flex;
+        justify-content: space-around;
+        border-bottom: 1px solid #e1e0e0;
+        margin-top: 21px;
+        padding-bottom: 5px;
+    
+
+        .ship{
+
+            margin-left: 36px;
+            font-size: 15px;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+
+        }
+
+        .ship_content{
+
+            font-size:12px;
+
+
+        }
+    
+
+    }
+
+    .sub_total{
+
+        display: flex;
+        justify-content: space-around;
+        font-weight: 500;
+        border-bottom: 1px solid #e1e0e0;
+        padding-bottom: 18px;
+        padding-top:10px;
+
+    }
+
+
+    .cart_Total2{
+
+        text-align: start;
+        font-weight: 700;
+        font-size: 18px;
+        margin-left: 35px;
+        margin-top: 22px;
+        border-bottom: 1px solid #e1e0e0;
+        padding-bottom: 18px;
+
+    }
+
+        }
+
+        .cart_table{
+
+            .apply{
+
+                display: flex;
+                justify-content: space-around;
+                margin-top: -204px;
+                border-top:  1px solid #e1e0e0;
+                 padding-top: 27px;
+
+                .coupon{
+
+                    display: flex;
+
+                    .apply_coupon{
+
+                        display: flex;
+
+                        .btn_apply{
+
+                            border: 1px solid #ed1c24;
+                            background-color: #ed1c24;
+                            color: #fff;
+                            padding-top: 9px;
+                            font-size: 12px;
+                            width: 114px;
+                            padding-left: 12px;
+                            padding-top: 13px;
+                            cursor: pointer;
+                        }
+
+                        .coupon_codes{
+
+                            background-color: #f5f5f5;
+                            outline: none;
+                            border:none;
+                            font-size: 13px;
+                            padding: 18px 40px 13px 15px;
+
+                        }
+
+                    }
+
+                }
+
+
+                .update_cart{
+
+                    border: 1px solid #0baf4d;
+                    width: 186px;
+                    text-align: center;
+                    border-radius: 15px;
+                    padding-right: 5px;
+                    padding-left: 5px;
+                    padding-bottom: 5px;
+                    color: white;
+                    background-color:#0baf4d;
+                    font-weight: 700;
+                    font-size:16px;
+                    padding-top:15px;
+                    cursor: pointer;
+
+                }
+
+
+            }
+
+            .table{
+
+                border-bottom: 1px solid #e1e0e0;
+                padding-top:20px;
+                padding-bottom:20px;
+                display: flex;
+                justify-content: space-around;
+                font-weight: 700;
+
+                .table_head{
+
+                    font-weight:700;
+
+                }
+
+            }
+
+            border:1px solid #e1e0e0;
+            width:74%;
+            height: auto;
+            background-color: white;
+            margin-top:50px;
+
+
+            .table_data{
+
+                display: flex;
+                justify-content: space-around;
+                padding:47px 0px 240px 0px;
+
+                .sub_title{
+
+                  margin-right:0px;                    
+
+                }
+                  
+
+            }
+
+        }
+
+    }
+
+}
