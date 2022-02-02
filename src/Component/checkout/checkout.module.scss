@@ -1,0 +1,469 @@
+.Checkout_bg {
+  background-color: #f8f8f8;
+  border-top: 1px solid #e1e0e0;
+  padding-top: 50px;
+  padding-bottom: 40px;
+
+  .billing {
+    display: flex;
+
+    .billing_details {
+      display: flex;
+      justify-content: flex-start;
+      font-size: 26px;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+  }
+
+  .Checkout_bd {
+    display: flex;
+
+    @media screen and (max-width: 991px) {
+      display: block;
+    }
+
+    @media screen and (max-width: 767px) {
+      display: block;
+    }
+
+    .different_address {
+      border: 0px solid #e6e6e6;
+      width: 100%;
+      margin-top: 50px;
+
+      .different_input {
+        display: flex;
+        .ship_differ_address {
+          font-weight: 600;
+          margin-top: -8px;
+          margin-left: 20px;
+
+          @media screen and (max-width: 375px) {
+            font-size: 17px;
+            margin-top: -4px;
+          }
+        }
+      }
+      .address_bg {
+        border: 1px solid #fff;
+        width: 100%;
+        background-color: #fff;
+        height: auto;
+        padding-bottom: 30px;
+        padding-top: 31px;
+        padding-right: 30px;
+        padding-left: 29px;
+        margin-top: 30px;
+        display: grid;
+
+        .order {
+          color: #7b7b7b;
+          font-size: 14px;
+          font-weight: 600;
+        }
+
+        .address {
+          padding-bottom: 160px;
+          padding-left: 25px;
+          outline: none;
+          padding-top: 20px;
+          font-size: 15px;
+        }
+      }
+    }
+
+    .checkout_form {
+      border: 1px solid #e1e0e0;
+      background-color: #fff;
+      width: 700px;
+      padding-bottom: 40px;
+      padding-top: 25px;
+
+      @media screen and (max-width: 1199px) {
+        width: 600px;
+      }
+
+      @media screen and (max-width: 991px) {
+        width: 100%;
+      }
+
+      .name_input {
+        display: grid;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 30px;
+
+        .inputfiled {
+          padding-bottom: 13px;
+          padding-top: 13px;
+          padding-left: 17px;
+          font-size: 15px;
+          outline: none;
+          border: 1px solid #e6e6e6;
+        }
+      }
+    }
+
+    .your_order {
+      border: 1px solid #e1e0e0;
+      width: 35%;
+      margin-left: 30px;
+      height: 100%;
+      background-color: #fff;
+      border-bottom: 1px solid #e1e0e0;
+
+      .pro_sub {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 22px;
+        padding-right: 22px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #e1e0e0;
+
+        .Product {
+          font-weight: 600;
+          font-size: 15px;
+        }
+        .substotal {
+          font-weight: 600;
+          font-size: 15px;
+        }
+      }
+
+      .touch {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 22px;
+        padding-right: 22px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #e1e0e0;
+
+        .touch_up {
+          font-size: 15px;
+        }
+
+        .price {
+          font-size: 15px;
+        }
+      }
+
+      .subtotal {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 22px;
+        padding-right: 22px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #e1e0e0;
+
+        .subs_total {
+          font-weight: 600;
+          font-size: 15px;
+        }
+        .prices_dollars {
+          font-weight: 600;
+          font-size: 15px;
+        }
+      }
+
+      .shipp_flate {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 22px;
+        padding-right: 22px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #e1e0e0;
+
+        .shipping {
+          font-weight: 600;
+          font-size: 15px;
+        }
+
+        .flate {
+          font-size: 15px;
+        }
+      }
+
+      .Total {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 22px;
+        padding-right: 22px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        .totals {
+          font-weight: 600;
+          font-size: 15px;
+        }
+
+        .price2 {
+          font-size: 20px;
+          color: #0baf4d;
+          font-weight: 600;
+        }
+      }
+
+      .direct {
+        font-size: 14px;
+        font-weight: 700;
+        text-align: start;
+        margin-left: 16px;
+        margin-top: 15px;
+
+        .bank_direct {
+          display: flex;
+
+          .btn_direct {
+            margin-top: 2px;
+
+            .radio_btn {
+              cursor: pointer;
+            }
+          }
+
+          .transfer {
+            margin-left: 10px;
+            cursor: pointer;
+          }
+        }
+
+        .direct_transfer_content {
+          border: 0px solid #f3f3f3;
+          width: 100%;
+          margin-top: 18px;
+          overflow: hidden;
+          height: 120px;
+          margin-left: -7px;
+          padding-left: 17px;
+          padding-right: 12px;
+          background-color: #f3f3f3;
+          padding-top: 5px;
+          transition: all 0.5s ease;
+        }
+
+        .direct_transfer_content2 {
+          border: 0px solid #f3f3f3;
+          width: 100%;
+          margin-top: 18px;
+          overflow: hidden;
+          height: 0px;
+          margin-left: -7px;
+          padding-left: 17px;
+          padding-right: 12px;
+          background-color: #f3f3f3;
+          padding-top: 0px;
+          transition: all 0.5s ease;
+        }
+      }
+
+      .wallet {
+        font-size: 14px;
+        font-weight: 700;
+        text-align: start;
+        margin-left: 16px;
+        margin-top: 15px;
+
+        .bank_wallet {
+          display: flex;
+
+          .btn_wallet {
+            margin-top: 2px;
+
+            .radio_wallet_btn {
+              cursor: pointer;
+            }
+          }
+
+          .transfer_wallet {
+            margin-left: 10px;
+            cursor: pointer;
+          }
+        }
+
+        .wallet_transfer_content {
+          border: 0px solid #f3f3f3;
+          width: 100%;
+          margin-top: 18px;
+          overflow: hidden;
+          height: 120px;
+          margin-left: -7px;
+          padding-left: 17px;
+          padding-right: 12px;
+          background-color: #f3f3f3;
+          padding-top: 5px;
+          transition: all 0.5s ease;
+        }
+
+        .wallet_transfer_content2 {
+          border: 0px solid #f3f3f3;
+          width: 100%;
+          margin-top: 18px;
+          overflow: hidden;
+          height: 0px;
+          margin-left: -7px;
+          padding-left: 17px;
+          padding-right: 12px;
+          background-color: #f3f3f3;
+          padding-top: 0px;
+          transition: all 0.5s ease;
+        }
+      }
+
+      .cash {
+        font-size: 14px;
+        font-weight: 700;
+        text-align: start;
+        margin-left: 16px;
+        margin-top: 15px;
+
+        .bank_cash {
+          display: flex;
+
+          .btn_cash {
+            margin-top: 2px;
+
+            .radio_cash_btn {
+              cursor: pointer;
+            }
+          }
+
+          .cash_wallet {
+            margin-left: 10px;
+            cursor: pointer;
+          }
+        }
+
+        .cash_transfer_content {
+          border: 0px solid #f3f3f3;
+          width: 100%;
+          margin-top: 18px;
+          overflow: hidden;
+          height: 120px;
+          margin-left: -7px;
+          padding-left: 17px;
+          padding-right: 12px;
+          background-color: #f3f3f3;
+          padding-top: 5px;
+          transition: all 0.5s ease;
+        }
+
+        .cash_transfer_content2 {
+          border: 0px solid #f3f3f3;
+          width: 100%;
+          margin-top: 18px;
+          overflow: hidden;
+          height: 0px;
+          margin-left: -7px;
+          padding-left: 17px;
+          padding-right: 12px;
+          background-color: #f3f3f3;
+          padding-top: 0px;
+          transition: all 0.5s ease;
+        }
+      }
+
+      .paypal {
+        font-size: 14px;
+        font-weight: 700;
+        text-align: start;
+        margin-left: 16px;
+        margin-top: 15px;
+
+        .bank_paypal {
+          display: flex;
+
+          .payments_images {
+            margin-top: -10px;
+            margin-left: 10px;
+            cursor: pointer;
+          }
+
+          .btn_paypal {
+            margin-top: 2px;
+
+            .radio_paypal_btn {
+              cursor: pointer;
+            }
+          }
+
+          .transfer_paypal {
+            margin-left: 10px;
+            cursor: pointer;
+          }
+        }
+
+        .paypal_content {
+          border: 0px solid #f3f3f3;
+          width: 100%;
+          margin-top: 18px;
+          overflow: hidden;
+          height: 120px;
+          margin-left: -7px;
+          padding-left: 17px;
+          padding-right: 12px;
+          background-color: #f3f3f3;
+          padding-top: 5px;
+          transition: all 0.5s ease;
+        }
+
+        .paypal_content2 {
+          border: 0px solid #f3f3f3;
+          width: 100%;
+          margin-top: 18px;
+          overflow: hidden;
+          height: 0px;
+          margin-left: -7px;
+          padding-left: 17px;
+          padding-right: 12px;
+          background-color: #f3f3f3;
+          padding-top: 0px;
+          transition: all 0.5s ease;
+        }
+      }
+
+      .place {
+        margin-bottom: -71px;
+        margin-top: -2px;
+        display: flex;
+        justify-content: center;
+
+        .place_order {
+          border: 1px solid #0baf4d;
+          width: 100%;
+          height: 50px;
+          margin-top: 31px;
+          line-height: 50px;
+          font-weight: 700;
+          font-size: 16px;
+          text-align: center;
+          border-radius: 25px;
+          background-color: #0baf4d;
+          color: #fff;
+        }
+      }
+
+      .order {
+        display: flex;
+        margin-top: -44px;
+        font-size: 26px;
+        font-weight: 600;
+      }
+
+      @media screen and (max-width: 991px) {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 50px;
+      }
+
+      @media screen and (max-width: 767px) {
+        margin-left: 0px;
+        width: 100%;
+      }
+    }
+  }
+}

@@ -8,8 +8,9 @@ import Freshfood from "./Component/Freshfood/freshfood";
 import NewsProducts from "./Component/NewsProducts/NewsProducts";
 import Home from "./Component/home/Home";
 import Singleproducts from "./Component/singleProducts/Singleproducts";
-import  Shop  from "./Component/Shop/Shop";
-import  Cart   from "./Component/Cart/cart";
+import Shop from "./Component/Shop/Shop";
+import Cart from "./Component/Cart/cart";
+import Checkout from "./Component/checkout/checkout";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -29,8 +30,9 @@ function App() {
           <Route exact path="/freshfood" element={<Freshfood />} />
           <Route exact path="/news-products" element={<NewsProducts />} />
           <Route exact path="/single-products" element={<Singleproducts />} />
-          <Route exact path="/Shop"  element={ <Shop/> } />
-          <Route exact path="/Cart"  element={ <Cart/> } />
+          <Route exact path="/Shop" element={<Shop />} />
+          <Route exact path="/Cart" element={<Cart />} />
+          <Route exact path="/checkout" element={<Checkout />} />
         </Routes>
       </Router>
       <Footer />
