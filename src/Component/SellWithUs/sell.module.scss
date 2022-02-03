@@ -1,127 +1,153 @@
-.images{
+.images {
+  width: 100%;
+  height: 321px;
+  background-image: url("../../../public/items/about-bg.7228b08cb8bdc3e03706.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 
-    width:100%;
-    height: 100%;
-
-}
-
-.Million_Text{
-    margin-top: -200px;
+  .Million_Text {
     display: flex;
     justify-content: flex-start;
-    margin-left: 160px;
-    width: 448px;
+    width: 39%;
 
-    
-
-
-    .Shoppers_Text{
-
-        font-weight: 700;
+    @media screen and (max-width: 767px) {
+      width: 100%;
     }
 
-}
+    .million_content {
+      margin-top: 30px;
 
-.sell_btn{
-    margin-left:166px;
-    margin-top: -75px;
-
-.sell{
-
-    border:1px soild #0baf4d;
-    width:160px;
-    height:50px;
-    color: #fff;
-    line-height: 50px;
-    background-color: #0baf4d;
-    cursor: pointer;
-    border-radius:25px;
-    text-align: center;
-}
-
-}
-
-.best_images_section{
-
-    background-color: #fff;
-    padding-bottom: 70px;
-    padding-top: 70px;
-
-.best_images{
-
-    .open_images{
-        width: 100%;
-        height: 100%;
-        border-radius:10px;
-    }
-}
-
-.best_fees_text{
-
-
-    .best_content{
-
-        .best_start{
-
-            font-weight: 600;
-
-        }
-
-        .Affordable{
-
-             font-weight: 600;
-             font-size: 15px;
-             color: #0baf4d;
-        }
-
-        .cost_list{
-
-            font-weight: 600;
-            font-size:15px;
-        }
-
-
-    }
-
-    .Power_support_lowfees_images{
-
-        display: flex;
-        .powerfull{
-
-            width:100%;
-            height: 100%;
-
-        }
-
-        .support{
-
-            width:100%;
-            height: 100%;
-
-        }
-
-        .Lowfees{
-
-            width:100%;
-            height: 100%;
-
-        }
-
-    }
-
-    .sellus_btn{
-
+      .Shoppers_Text {
         font-weight: 600;
-        border:1px solid #0baf4d;
-        border-radius: 15px;
-        width:160px;
-        height: 40px;
-        line-height: 40px;
-        text-align: center;
-        background-color: #0baf4d;
-        color: #fff;
-    }
+        line-height: 50px;
+      }
 
+      .sellbutton {
+        border: 1px solid #0baf4d;
+        width: 150px;
+        border-radius: 25px;
+        height: 45px;
+        line-height: 45px;
+        background-color: #0baf4d;
+        font-weight: 600;
+        color: #fff;
+        text-align: center;
+      }
+    }
+  }
 }
 
+.best_images_section {
+  background-color: #fff;
+  padding-bottom: 70px;
+  padding-top: 70px;
+
+  .best_images {
+    width: 84%;
+    .open_images {
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+    }
+  }
+
+  .best_fees_text {
+    margin-left: -56px;
+    margin-top: 2px;
+
+    @media screen and (max-width: 991px) {
+      margin-left: 0px;
+      margin-top: 40px;
+    }
+
+    .best_content {
+      .best_start {
+        font-weight: 600;
+        margin-top: -7px;
+      }
+
+      .Affordable {
+        font-weight: 600;
+        font-size: 15px;
+        color: #0baf4d;
+        margin-top: 10px;
+      }
+
+      .cost_list {
+        font-weight: 600;
+        font-size: 15px;
+        margin-top: 10px;
+      }
+    }
+
+    .Power_support_lowfees_images {
+      display: flex;
+      margin-top: 30px;
+      .power_full {
+        .powerfull_text {
+          font-size: 15px;
+          font-weight: 600;
+        }
+        .powerfull {
+          width: 70%;
+          height: 70%;
+
+          @media screen and (max-width: 424px) {
+            width: 70%;
+            height: 50%;
+          }
+        }
+      }
+
+      .support_image {
+        margin-left: 28px;
+
+        .support_text {
+          font-size: 15px;
+          font-weight: 600;
+        }
+
+        .support {
+          width: 85%;
+          height: 70%;
+          @media screen and (max-width: 424px) {
+            width: 85%;
+            height: 50%;
+          }
+        }
+      }
+    }
+
+    .Lowfees_image {
+      margin-left: 31px;
+
+      .Lowfees_text {
+        font-weight: 600;
+        font-size: 15px;
+      }
+
+      .Lowfees {
+        width: 90%;
+        height: 70%;
+
+        @media screen and (max-width: 424px) {
+          width: 90%;
+          height: 50%;
+        }
+      }
+    }
+
+    .sellus_btn {
+      font-weight: 600;
+      border: 1px solid #0baf4d;
+      border-radius: 25px;
+      width: 160px;
+      height: 43px;
+      line-height: 43px;
+      text-align: center;
+      background-color: #0baf4d;
+      color: #fff;
+      margin-top: 20px;
+    }
+  }
 }
