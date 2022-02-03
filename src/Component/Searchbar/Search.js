@@ -47,10 +47,10 @@ const Searchbar = () => {
                   }}
                 >
                   <li style={{ paddingTop: "29px" }}>
-                    <i class="fas fa-home"></i>&nbsp;&nbsp;Home
+                    <i class="fas fa-home"></i>&nbsp;&nbsp;<a  href="/">Home</a>
                   </li>
                   <li style={{ paddingTop: "29px" }}>
-                    <i class="fas fa-briefcase"></i>&nbsp;&nbsp; Shop
+                    <i class="fas fa-briefcase"></i>&nbsp;&nbsp;<a  href="/Shop">Shop</a>
                   </li>
                   <li style={{ paddingTop: "29px" }}>
                     <i class="fas fa-exclamation-circle"></i>&nbsp;&nbsp;About
@@ -66,7 +66,7 @@ const Searchbar = () => {
                     <i class="far fa-heart"></i>&nbsp;&nbsp;Wish List
                   </li>
                   <li style={{ paddingTop: "29px" }}>
-                    <i class="fas fa-shopping-cart"></i>&nbsp;&nbsp;Sell With Us
+                  <a href="/sellwithus"><i class="fas fa-shopping-cart"></i>&nbsp;&nbsp;Sell With Us</a>
                   </li>
                   <li style={{ paddingTop: "29px" }}>
                     <i class="fas fa-id-card"></i>&nbsp;&nbsp;Contact

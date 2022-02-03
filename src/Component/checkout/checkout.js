@@ -7,7 +7,7 @@ import Navigation from "../Navbar2/navbar2";
 const Checkout = () => {
   const [bank, setBank] = useState(false);
 
-  const [wallet, setWallet] = useState(false);
+  const [wallet, setWallet] = useState(true);
 
   const [cash, setCash] = useState(false);
 
@@ -18,7 +18,6 @@ const Checkout = () => {
     setWallet(false);
     setCash(false);
     setPaypal(false);
-    return false;
   };
 
   const handleclickwallet = () => {

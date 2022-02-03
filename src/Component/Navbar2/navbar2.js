@@ -23,9 +23,9 @@ const Navigation = () => {
             <li>
               <i class="fas fa-briefcase"></i>&nbsp;&nbsp;Offers
             </li>
-            <li>
+            <Link to="/sellWithUs"><li>
               <i class="fas fa-shopping-cart"></i>&nbsp;&nbsp;Sell With Us
-            </li>
+            </li></Link>
             <li>
               <i class="fas fa-id-card"></i>&nbsp;&nbsp;Contact
             </li>

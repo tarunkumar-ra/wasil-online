@@ -11,6 +11,7 @@ import Singleproducts from "./Component/singleProducts/Singleproducts";
 import Shop from "./Component/Shop/Shop";
 import Cart from "./Component/Cart/cart";
 import Checkout from "./Component/checkout/checkout";
+import Sellwithus  from "./Component/SellWithUs/sellWithus";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -31,7 +32,8 @@ function App() {
           <Route exact path="/news-products" element={<NewsProducts />} />
           <Route exact path="/single-products" element={<Singleproducts />} />
           <Route exact path="/Shop" element={<Shop />} />
-          <Route exact path="/Cart" element={<Cart />} />
+          <Route exact path="/cart" element={<Cart />} />
+          <Route exact path="/sellwithus"  element={ <Sellwithus/> } />
           <Route exact path="/checkout" element={<Checkout />} />
         </Routes>
       </Router>
